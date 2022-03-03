@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite parallel="none" name="Failed suite [Default suite]">
+  <test parallel="none" name="Default test(failed)">
+    <classes>
+      <class name="xboxtestcases.VerifyTop5Games">
+        <methods>
+          <include name="verifyTop5Games"/>
+          <include name="loadExpectedValues"/>
+        </methods>
+      </class> <!-- xboxtestcases.VerifyTop5Games -->
+    </classes>
+  </test> <!-- Default test(failed) -->
+</suite> <!-- Failed suite [Default suite] -->

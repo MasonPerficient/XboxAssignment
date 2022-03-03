@@ -11,7 +11,7 @@ import util.TestData;
 import xboxbasepages.XboxHomePage;
 import xboxbasepages.XboxLeaderboardsPage;
 
-public class VerifyTop5Gamertags extends TestCaseBase{
+public class verifyTop5Gamertags extends TestCaseBase{
 	
 	HashMap<String, String> expectedValues = new HashMap<String, String>();
 	

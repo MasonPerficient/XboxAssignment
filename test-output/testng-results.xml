@@ -1,17 +1,16 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results total="2" passed="2" failed="0" skipped="0">
+<testng-results total="1" passed="1" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2022-03-03T16:00:46Z" name="Default suite" finished-at="2022-03-03T16:01:07Z" duration-ms="20883">
+  <suite started-at="2022-03-03T16:28:23Z" name="Default suite" finished-at="2022-03-03T16:28:28Z" duration-ms="5265">
     <groups>
       <group name="ChromeWin32">
-        <method signature="VerifyTop5Gamertags.verifyTop5Gamertags()[pri:0, instance:xboxtestcases.VerifyTop5Gamertags@30b6ffe0]" name="verifyTop5Gamertags" class="xboxtestcases.VerifyTop5Gamertags"/>
-        <method signature="VerifyTop5Games.verifyTop5Games()[pri:0, instance:xboxtestcases.VerifyTop5Games@928763c]" name="verifyTop5Games" class="xboxtestcases.VerifyTop5Games"/>
+        <method signature="verifyTop5Games.verifyTopGames()[pri:0, instance:xboxtestcases.verifyTop5Games@2bdd8394]" name="verifyTopGames" class="xboxtestcases.verifyTop5Games"/>
       </group> <!-- ChromeWin32 -->
     </groups>
-    <test started-at="2022-03-03T16:00:46Z" name="Default test" finished-at="2022-03-03T16:01:07Z" duration-ms="20883">
-      <class name="xboxtestcases.VerifyTop5Games">
-        <test-method is-config="true" signature="setUpBrowser(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:xboxtestcases.VerifyTop5Games@928763c]" started-at="2022-03-03T10:00:58Z" name="setUpBrowser" finished-at="2022-03-03T10:00:58Z" duration-ms="719" status="PASS">
+    <test started-at="2022-03-03T16:28:23Z" name="Default test" finished-at="2022-03-03T16:28:28Z" duration-ms="5265">
+      <class name="xboxtestcases.verifyTop5Games">
+        <test-method is-config="true" signature="setUpBrowser(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:xboxtestcases.verifyTop5Games@2bdd8394]" started-at="2022-03-03T10:28:23Z" name="setUpBrowser" finished-at="2022-03-03T10:28:24Z" duration-ms="945" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -37,59 +36,19 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUpBrowser -->
-        <test-method signature="verifyTop5Games()[pri:0, instance:xboxtestcases.VerifyTop5Games@928763c]" started-at="2022-03-03T10:00:58Z" name="verifyTop5Games" finished-at="2022-03-03T10:01:01Z" duration-ms="2335" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- verifyTop5Games -->
-        <test-method is-config="true" signature="loadExpectedValues()[pri:0, instance:xboxtestcases.VerifyTop5Games@928763c]" started-at="2022-03-03T10:00:58Z" name="loadExpectedValues" finished-at="2022-03-03T10:00:58Z" duration-ms="0" status="PASS">
+        <test-method is-config="true" signature="loadExpectedValues()[pri:0, instance:xboxtestcases.verifyTop5Games@2bdd8394]" started-at="2022-03-03T10:28:24Z" name="loadExpectedValues" finished-at="2022-03-03T10:28:24Z" duration-ms="1" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- loadExpectedValues -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:xboxtestcases.VerifyTop5Games@928763c]" started-at="2022-03-03T10:01:01Z" name="tearDown" finished-at="2022-03-03T10:01:07Z" duration-ms="6163" status="PASS">
+        <test-method signature="verifyTopGames()[pri:0, instance:xboxtestcases.verifyTop5Games@2bdd8394]" started-at="2022-03-03T10:28:24Z" name="verifyTopGames" finished-at="2022-03-03T10:28:26Z" duration-ms="1998" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyTopGames -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:xboxtestcases.verifyTop5Games@2bdd8394]" started-at="2022-03-03T10:28:26Z" name="tearDown" finished-at="2022-03-03T10:28:28Z" duration-ms="2313" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-      </class> <!-- xboxtestcases.VerifyTop5Games -->
-      <class name="xboxtestcases.VerifyTop5Gamertags">
-        <test-method is-config="true" signature="setUpBrowser(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:xboxtestcases.VerifyTop5Gamertags@30b6ffe0]" started-at="2022-03-03T10:00:46Z" name="setUpBrowser" finished-at="2022-03-03T10:00:47Z" duration-ms="957" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[chrome]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA[false]]>
-              </value>
-            </param>
-            <param index="2">
-              <value>
-                <![CDATA[0]]>
-              </value>
-            </param>
-            <param index="3">
-              <value>
-                <![CDATA[0]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- setUpBrowser -->
-        <test-method is-config="true" signature="loadExpectedValues()[pri:0, instance:xboxtestcases.VerifyTop5Gamertags@30b6ffe0]" started-at="2022-03-03T10:00:47Z" name="loadExpectedValues" finished-at="2022-03-03T10:00:47Z" duration-ms="0" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- loadExpectedValues -->
-        <test-method signature="verifyTop5Gamertags()[pri:0, instance:xboxtestcases.VerifyTop5Gamertags@30b6ffe0]" started-at="2022-03-03T10:00:47Z" name="verifyTop5Gamertags" finished-at="2022-03-03T10:00:52Z" duration-ms="4505" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- verifyTop5Gamertags -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:xboxtestcases.VerifyTop5Gamertags@30b6ffe0]" started-at="2022-03-03T10:00:52Z" name="tearDown" finished-at="2022-03-03T10:00:58Z" duration-ms="6196" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- tearDown -->
-      </class> <!-- xboxtestcases.VerifyTop5Gamertags -->
+      </class> <!-- xboxtestcases.verifyTop5Games -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>

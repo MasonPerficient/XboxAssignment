@@ -3,8 +3,8 @@
 <suite name="Testing 2 xbox pages">
     <test name="Testing2">
          <classes>
-             <class name="xboxtestcases.VerifyTop5Gamertags"/>
-             <class name="xboxtestcases.VerifyTop5Games"/>
+             <class name="xboxtestcases.verifyTop5Gamertags"/>
+             <class name="xboxtestcases.verifyTop5Games"/>
           </classes>
      </test> <!-- Test -->
 </suite> <!-- Suite -->

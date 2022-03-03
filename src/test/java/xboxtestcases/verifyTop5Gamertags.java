@@ -25,7 +25,7 @@ public class verifyTop5Gamertags extends TestCaseBase{
 	}
 
 	@Test(groups = {"ChromeWin32"})
-	public void verifyTop5Gamertags() throws Exception {
+	public void verifyTop5Gts() throws Exception {
 	
 		XboxHomePage xboxHomePage = new XboxHomePage();
 		xboxHomePage.open();
